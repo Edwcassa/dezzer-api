@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  brand {
+    @apply  border-[3px] border-[#f9f9f9] border-opacity-10 rounded-lg cursor-pointer overflow-hidden  hover:border-opacity-80  transform hover:scale-105 transition duration-300;
+  }
+}
